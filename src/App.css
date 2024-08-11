@@ -1,0 +1,51 @@
+#container {
+  width: 100%;
+  border: 2px solid #c3c3c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+#container h1 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.leaflet-container {
+  height: 90vh;
+}
+
+.popup {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Popup content */
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.popup-country {
+  color: #555;
+}
+
+.popup-coordinates {
+  color: #888;
+}
+
